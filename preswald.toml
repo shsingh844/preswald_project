@@ -1,0 +1,21 @@
+[project]
+title = "Solar Footprint in California"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Sustainability Project"
+logo = "images/logo.jpg"
+favicon = "images/favicon.ico"
+primaryColor = "#009DC4"
+
+[data.solar_data]
+type = "csv"
+path = "data/sample.csv"
+encoding = "utf-8"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
